@@ -1,4 +1,4 @@
-export async function handler(event, context) {
+exports.handler = async function handler(event, context) {
   try {
     return {
       statusCode: 200,
