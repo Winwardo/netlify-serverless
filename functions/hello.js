@@ -2,7 +2,7 @@ exports.handler = async function handler(event, context) {
   try {
     return {
       statusCode: 200,
-      body: JSON.stringify({ hello: "world" })
+      body: JSON.stringify({ hello: "world-2" })
     }
   } catch (err) {
     console.log(err) // output to netlify function log
